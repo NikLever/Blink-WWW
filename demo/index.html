@@ -1,0 +1,62 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>Blink Demo</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="blink_edgePreloadx.js"></script>
+    <script type="text/javascript" charset="utf-8" src="edge_includes/buzz.min.js"></script>
+	<style>
+		body {
+		  margin: 0; 
+		  padding: 0; 
+		  text-align: center; /* use text-align to make IE in quirks mode centre the divs */
+		  background: #000000;
+		}
+		
+		#outer{
+			 width: 100%; /* Firefox needs this */
+			height: 100%; /* Height can be anything */
+				
+			/* WebKit (Chrome & Safari) */
+			display: -webkit-box;
+			-webkit-box-pack: center;
+			-webkit-box-align: center;
+			
+			/* Firefox */
+			display: -moz-box;
+			-moz-box-pack: center;
+			-moz-box-align: center;
+			
+			/* IE */
+			display: -ms-box;
+			-ms-box-pack: center;
+			-ms-box-align: center;
+			
+			 /* Native CSS */
+			display: box;
+			box-pack: center;
+			box-align: center;
+		}
+		
+		#container{
+			width:480px;
+			height:320px;
+			overflow: hidden;
+		}
+		#Stage{
+		}
+        .edgeLoad-EDGE-26718532 { visibility:hidden; }
+    </style>
+<!--Adobe Edge Runtime End-->
+
+</head>
+<center>
+	<div id="outer">
+	<div id="container">
+	<div id="Stage" class="EDGE-26718532"></div>
+	</div>
+    </div>
+</center>
+</html>

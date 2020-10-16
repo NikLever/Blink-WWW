@@ -1,0 +1,6 @@
+[
+    { "sym":"statements", "type":"jumbled_list_view", "options":["Is funded entirely by the Company.", "Requires no contribution from the employee.","Helps towards your financial security during retirement." ] },
+    { "sym":"statements_int", "type":"jumbled_list", "time":30, "timer_held":true, "options":[{ "words":["Is funded", "entirely by", "the Company."], "color":"#33CC66"}, {"words":["Requires", "no contribution", "from the employee."], "color":"#3399CC"}, { "words":["Helps towards", "your financial security", "during", "retirement."], "color":"#CC6699"}] },
+    { "sym":"self_reflection", "type":"drag", "time":25, "timer_held":true, "advance":true },
+    {"sym":"truthful2", "show_progress":true, "time":35, "options":[{"text":"supports your wealth accumulation goals.", "truthful":true}, {"text":"helps protect you and your family's health and well-being.", "truthful":true}, {"text":"will protect you from space aliens.", "truthful":false}, {"text":"can contribute to your career advancement.", "truthful":true}, {"text":"will improve your sense of humor.", "truthful":false}], "advance":true}
+]

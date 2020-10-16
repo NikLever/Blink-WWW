@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Preview at https://64.34.168.15:8443/sitepreview/http/blinktrainingsystem.com -->
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Blink</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<link href="../admin/main.css" rel="stylesheet" type="text/css" />
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script>
+  $(function() {
+    $( document ).tooltip();
+  });
+  </script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="container"> 
+  <div class="header"><span class="heading">Blink Training System - CMS <!-- TemplateBeginEditable name="PageName" -->PageName<!-- TemplateEndEditable --></span>
+    <!-- end .header --></div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <!-- TemplateBeginEditable name="sidebar" -->
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Register</a></li>
+      <!-- TemplateEndEditable -->
+    </ul>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+    <!-- TemplateBeginEditable name="content" -->
+    <h1>Login</h1>
+    <p>Content</p>  
+    <!-- TemplateEndEditable -->
+    <!-- end .content --></div>
+  <div class="footer">
+    Copyright © 2014 by Blink Training Systems, LLC
+    <!-- end .footer --></div> 
+  <!-- end .container --></div> 
+</body>
+</html>

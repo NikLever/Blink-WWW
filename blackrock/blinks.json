@@ -1,0 +1,4 @@
+[
+    { "sym":"mission", "type":"click_list", "show_progress":false, "show_timer":false },
+    { "sym":"video", "type":"video", "show_progress":false, "show_timer":false }
+]
